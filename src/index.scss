@@ -7,7 +7,50 @@ RESET
   box-sizing: border-box;
 }
 
+.container-big{
+  max-width: 1100px;
+  margin: 20px auto;
+}
+
+.titolo{
+  text-align: center;
+  margin: 20px;
+}
+
+.container-tit-btn{
+  text-align: center;
+}
+
 .container-cal-map{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin-top: 30px;
+
+  .calendario{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+  }
+
+  .mappa{
+    width: 500px;
+    height: 500px;
+    background-color: green;
+  }
+}
+
+.container{
+  display: flex;
+  width: 800px;
+  background-color: aqua;
+  margin-top: 40px;
+  padding: 10px;
+  overflow: hidden y;
+
+  .container-img{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin-right: 20px;
+  }
 }
