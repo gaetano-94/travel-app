@@ -7,31 +7,37 @@ RESET
   box-sizing: border-box;
 }
 
+/* Stile per il contenitore principale */
 .container-big{
   max-width: 1100px;
   margin: 20px auto;
 }
 
+/* Stile per il titolo principale */
 .titolo{
   text-align: center;
   margin: 20px;
 }
 
+/* Stile per il contenitore del titolo e del pulsante */
 .container-tit-btn{
   text-align: center;
 }
 
+/* Stile per il contenitore del calendario e della mappa */
 .container-cal-map{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 
+  /* Stile per il calendario */
   .calendario{
     width: 500px;
     height: 500px;
     background-color: yellow;
   }
 
+  /* Stile per la mappa */
   .mappa{
     width: 500px;
     height: 500px;
@@ -39,14 +45,14 @@ RESET
   }
 }
 
+/* Stile per il contenitore dei dettagli della meta */
 .container{
   display: flex;
-  width: 800px;
   background-color: aqua;
   margin-top: 40px;
   padding: 10px;
-  overflow: hidden y;
-
+ 
+  /* Stile per il contenitore dell'immagine */
   .container-img{
     width: 100px;
     height: 100px;
