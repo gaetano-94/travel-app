@@ -18,12 +18,12 @@ const App = () => {
         <div className="container-tit-btn">
           <h1 className="titolo">Pianifica il tuo viaggio</h1>
           <Button className="btn-meta" onClick={handleShowOffCanvas}>
-            Aggiungi Meta
+            Aggiungi una Meta
           </Button>
         </div>
 
         {/* Componente Offcanvas per aggiungere una nuova meta */}
-        <Offcanvas show={showOffCanvas} onHide={handleCloseOffCanvas}>
+        <Offcanvas className="offcanvas-container" show={showOffCanvas} onHide={handleCloseOffCanvas}>
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Aggiungi Meta</Offcanvas.Title>
           </Offcanvas.Header>
@@ -32,19 +32,21 @@ const App = () => {
               {/* Form per inserire i dettagli della nuova meta */}
               <form action="">
                 <h4 className="global-text">Titolo</h4>
-                <input className="global-input" type="text" />
+                <input className="w-100" type="text" />
 
                 <h4 className="global-text">Data</h4>
-                <input className="global-input" type="date" />
+                <input type="date" />
 
                 <h4 className="global-text">Luogo</h4>
-                <input className="global-input" type="text" />
+                <input className="w-100" type="text" />
 
                 <h4 className="global-text">Img</h4>
-                <input className="global-input" type="file" />
+                <input type="file" />
 
                 <h4 className="global-text">Descrizione</h4>
-                <textarea className="global-input" name="" id=""></textarea>
+                <textarea className="w-100" name="" id=""></textarea>
+
+                <button className="btn btn-primary">Salva</button>
               </form>
             </div>
           </Offcanvas.Body>

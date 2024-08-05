@@ -7,56 +7,69 @@ RESET
   box-sizing: border-box;
 }
 
-/* Stile per il contenitore principale */
-.container-big{
+/*
+LAYOUT PRINCIPALE
+*/
+.container-big {
   max-width: 1100px;
   margin: 20px auto;
 }
 
-/* Stile per il titolo principale */
-.titolo{
+/*
+HEADER (Titolo e Pulsante)
+*/
+.titolo {
   text-align: center;
   margin: 20px;
 }
 
-/* Stile per il contenitore del titolo e del pulsante */
-.container-tit-btn{
+.container-tit-btn {
   text-align: center;
 }
 
-/* Stile per il contenitore del calendario e della mappa */
-.container-cal-map{
+/*
+SEZIONE CALENDARIO E MAPPA
+*/
+.container-cal-map {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
-
-  /* Stile per il calendario */
-  .calendario{
-    width: 500px;
-    height: 500px;
-    background-color: yellow;
-  }
-
-  /* Stile per la mappa */
-  .mappa{
-    width: 500px;
-    height: 500px;
-    background-color: green;
-  }
 }
 
-/* Stile per il contenitore dei dettagli della meta */
-.container{
+.calendario {
+  width: 500px;
+  height: 500px;
+  background-color: yellow;
+}
+
+.mappa {
+  width: 500px;
+  height: 500px;
+  background-color: green;
+}
+
+/*
+SEZIONE DETTAGLI META
+*/
+.container {
   display: flex;
   background-color: aqua;
   margin-top: 40px;
   padding: 10px;
- 
-  /* Stile per il contenitore dell'immagine */
-  .container-img{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    margin-right: 20px;
-  }
+}
+
+.container-img {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin-right: 20px;
+}
+
+.offcanvas-container{
+  font-family: "Poppins", sans-serif;
+  bottom: initial;
+  margin-top: 10px;
+  padding: 20px 24px 20px 34px;
+  border-radius: 0px 14px 14px  0px;
+  height: 600px;
 }
