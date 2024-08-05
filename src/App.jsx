@@ -23,7 +23,11 @@ const App = () => {
         </div>
 
         {/* Componente Offcanvas per aggiungere una nuova meta */}
-        <Offcanvas className="offcanvas-container" show={showOffCanvas} onHide={handleCloseOffCanvas}>
+        <Offcanvas
+          className="offcanvas-container"
+          show={showOffCanvas}
+          onHide={handleCloseOffCanvas}
+        >
           <Offcanvas.Header closeButton>
             <Offcanvas.Title>Aggiungi Meta</Offcanvas.Title>
           </Offcanvas.Header>
@@ -65,7 +69,16 @@ const App = () => {
           </div>
           <div className="container-tit-desc">
             <h4>Titolo</h4>
-            <p>Descrizione</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
+              repellendus laudantium aut sit voluptatibus corporis! Voluptates
+              sint, velit a dicta exercitationem cum deleniti, delectus
+              laudantium incidunt modi, sit ipsa odit.
+            </p>
+          </div>
+          <div className="d-flex justify-content-end align-items-end gap-2 w-100">
+            <button className="btn btn-warning">Modifica</button>
+            <button className="btn btn-danger">Elimina</button>
           </div>
         </div>
       </main>
