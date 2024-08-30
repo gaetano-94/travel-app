@@ -1,0 +1,25 @@
+:root {
+    /* Colore principale del testo */
+    --text-color: #1A1B41;
+    
+    /* Colore di sfondo principale del body */
+    --body-background: #f7faf9;
+
+    /* Colori di sfondo */
+    --white-background: #ffffff;      
+    --verde-acqua-background: #C2E7DA; 
+    --verde-scuro-background: #789B8F; 
+    --beige-background: #FBFFF8;       
+    
+    --grey-background: #EEECEC;        
+    --ligh-red-background: #ED6A5A;    
+    --dark-red-background: #af4e43;    
+    --ligh-cyan-background: #9BC1BC;   
+    --dark-cyan-background: #6f8d89;   
+
+    /* Colori per i bordi */
+    --celeste-border: #6290C3;        
+    --blu-border: #1A1B41;             
+    --grey-border: #757780;           
+    --yellow-border: #9b9979;         
+}
